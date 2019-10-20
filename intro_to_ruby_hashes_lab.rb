@@ -1,7 +1,8 @@
 def base_hash
-  # Remember implicit return! We're returning this new Hash _without_ the
+	my_hash = {key_for_today: "something goes here"}
+	my_hash
+	# Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
-	{}
 end
 
 def monopoly_with_second_tier
