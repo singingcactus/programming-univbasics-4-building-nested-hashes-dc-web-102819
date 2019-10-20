@@ -18,7 +18,7 @@ end
 def monopoly_with_third_tier
 	base_hash = {railroads: {}}
 	base_hash[:railroads][:pieces] = 4
-	base_hash[:railroads][:rent_in_dollars] = {one_piece_owned: 25, second_ownership_level: "", third_ownership_level: "", rr_monopoly: ""}
+	base_hash[:railroads][:rent_in_dollars] = {one_piece_owned: 25, two_pieces_owned: 50, three_pieces_owned: 100, monopoly: 200}
 	base_hash[:railroads][:names] = {key1: "", key2: "", key3: "", key4: ""}
 	base_hash
 	# When you start writing the implementation for this method, copy the Hash
